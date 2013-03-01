@@ -1,0 +1,15 @@
+Dégâts
+Epée (LVL1) : 1
+Epée (LVL2) : 2
+Epée (LVL3) : 4
+Bombe : 2
+Flèche : 2
+Grappin / Boomerang : Paralysie
+Lanterne : 3 (à terme 2 ?)
+
+Lancer :
+Jarre/Crâne : 2
+Buisson : 1
+Pierre : 2
+Pierre Noire : 4
+Chou-bombe : 1 + explosion 2

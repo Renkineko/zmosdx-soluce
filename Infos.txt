@@ -1,0 +1,11 @@
+Où trouver certaines infos
+
+- Timer : Dans l'éditeur, il y a l'ID de la map (première propriété), regarder dans map[id].lua et vérifier les timers. S'il y en a plusieurs, on peut connaître les ID grâce à l'éditeur en éditant l'élément demandé : l'id est dedans. Il suffit ensuite de chercher sur start_timer pour connaître, en second paramètre (après la fonction) la durée du timer en ms. 10000 = 10s.
+
+- PV : Dans le dossier enemies se trouve chaque partie de corps des ennemis (pour les boss) et chaque ennemi simple du jeu. Les PV sont dedans. Attention, certaines attaques peuvent être modifiées en terme de multiplicateur de dégâts.
+
+- Sprite : tous les sprites sont des multiples de 8*8. Prendre donc l'image dans sa globalité, diviser sa hauteur et sa largeur par le nombre d'image pour obtenir la taille réelle d'une image. Si le sprite est décomposé en plusieurs parties (car ces parties réagissent différemment aux attaques du héros), une simple superposition doit fonctionner pour les parties d'une même colonne.
+
+- set_damage : compté en quart de coeur (set_damage(12) = 3 coeur). Divisé par la tunique : 1, 2 ou 3. 
+
+- Mana : 42 points ou 84 points selon taille de la barre (1 px = 1 pt). Torche = 2 points (environ 5%/3%). Canne de Somaria = 7 points (17%/8% environ). Dommage Bubble : 4 points (~9%/5%)

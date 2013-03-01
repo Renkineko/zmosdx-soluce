@@ -1,0 +1,19 @@
+Event/Deeper : Pinceau - Brush : Hardness 100 (51x51) - Size 20.00 - #500000 / Font "Sans" #FFF Size 14
+Room Marker  : Pinceau - Brush : Hardness 100 (51x51) - Size 30.00 - #FFFFFF / Font "Sans" #000 Size 11
+Floor change : Pinceau - Brush : Hardness 100 (51x51) - Size 15.00 - #005000 / Font "Sans" Size 11 (variable color)
+
+Layers' Names / Positions (All folders are facultatives)
+Rooms (Folder)
+ -> auto
+ -> "Dots Room" containing dots
+Items (Folder)
+ -> Item sprites (only one sprite with all items)
+ -> Chests opened (only one sprite with all chests) - FACULTATIVE
+Deeper (Folder)
+ -> "Deeper # (Quick Desc)" (# dungeon related, not floor, biggest number first)
+ -> "Dots Deeper" containing dots
+Floors (Folder)
+ -> auto
+ -> "Dots Doors" (if needed only... ie Dungeon 6 & 7)
+Additionnal layers (for transparency)
+Map : Background
