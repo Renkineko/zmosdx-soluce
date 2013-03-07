@@ -1,0 +1,7 @@
+#IDE Eclipse
+HTML/.*/*
+HTML/.buildpath
+HTML/.project
+
+#Windows
+desktop.ini

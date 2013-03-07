@@ -8,4 +8,4 @@ Où trouver certaines infos
 
 - set_damage : compté en quart de coeur (set_damage(12) = 3 coeur). Divisé par la tunique : 1, 2 ou 3. 
 
-- Mana : 42 points ou 84 points selon taille de la barre (1 px = 1 pt). Torche = 2 points (environ 5%/3%). Canne de Somaria = 7 points (17%/8% environ). Dommage Bubble : 4 points (~9%/5%)
+- Mana : 42 points ou 84 points selon taille de la barre (1 px = 1 pt). Torche = 2 points (environ 5%/3%). Canne de Somaria = 7 points (17%/8% environ). Dommage Bubble : 4 points (~9%/5%). Petite fiole = 6 pts (~14%/7%), Grande fiole = 42 points (100%/50%)
