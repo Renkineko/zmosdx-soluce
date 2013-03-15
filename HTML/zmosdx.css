@@ -1,53 +1,81 @@
 /* Partie anticipatrice (permettra de personnaliser l'affichage des objets et des lieux si besoin est)*/
 
 span.objet {
-        font-weight: bold;
-        color: #000000
+	font-weight: bold;
+	color: #000000
 }
 
 span.lieu {
-        font-style: italic;
+	font-style: italic;
 }
 
 /* Partie importante */
 
-/* Partie commune à chaque tableau : remet les bords, les fusionne et fait un margin en bas pour éviter que le texte se colle au tableau */
+/* Partie commune Ã  chaque tableau : remet les bords, les fusionne et fait un margin en bas pour Ã©viter que le texte se colle au tableau */
 table.zmos_soluce {
-        border: 1px solid #555555;
-        border-collapse: collapse;
-        margin-bottom: 20px;
+	border: 1px solid #555555;
+	border-collapse: collapse;
+	margin-bottom: 20px;
 }
 
-/* Les TH possèdent un bord, sont en gras et ont une font-size similaire à celle de la balise H3... J'aime pas la notation en "em", mais j'ai pris par rapport au CSS actuel (5/2/2013) de la balise H3 d'un article de soluce... */
+/* Les TH possÃ¨dent un bord, sont en gras et ont une font-size similaire Ã  celle de la balise H3... J'aime pas la notation en "em", mais j'ai pris par rapport au CSS actuel (5/2/2013) de la balise H3 d'un article de soluce... */
 table.zmos_soluce th {
-        border: 1px solid #555555;
-        font-weight: bold;
-        font-size: 1.1em;
+	border: 1px solid #555555;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
-/* Les TD possèdent un bord */
+/* Les TD possÃ¨dent un bord */
 table.zmos_soluce td {
-        border: 1px solid #555555;
+	border: 1px solid #555555;
 }
 
-/* Le tableau des ennemis à combattre, la width n'a pas besoin d'être supérieure à 50% */
+/* Le tableau des ennemis Ã  combattre, la width n'a pas besoin d'Ãªtre supÃ©rieure Ã  50% */
 table.zmos_table_ennemis {
-        width: 50%;
+	width: 50%;
 }
 
-/* Le tableau de légende de la carte prend 100% de la largeur disponible */
+/* Le tableau de lÃ©gende de la carte prend 100% de la largeur disponible */
 table.zmos_table_legend{
-        width: 100%;
+	width: 100%;
 }
 
-/* Les TH "objets" du tableau de légende de la carte ont un fond noir et une couleur de police blanche */
+
+/* Les TH "objets" du tableau de lÃ©gende de la carte ont un fond noir et une couleur de police blanche */
 table.zmos_table_legend th.objets {
-        background-color: #000000;
-        color: #ffffff;
+	background-color: #000000;
+	color: #ffffff;
 }
 
-/* Les TH "events" du tableau de légende de la carte ont un fond rouge foncé et une couleur de police blanche */
+/* Les TH "events" du tableau de lÃ©gende de la carte ont un fond rouge foncÃ© et une couleur de police blanche */
 table.zmos_table_legend th.events {
-        background-color: #500000;
-        color: #ffffff;
+	background-color: #500000;
+	color: #ffffff;
+}
+
+/* Le tableau de bestiaire fait 600 px */
+table.zmos_table_bestiaire{
+	width: 100%;
+}
+
+table.zmos_table_bestiaire th,
+table.zmos_table_bestiaire td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Les TH "enemy_name" du tableau de bestiaire ont un fond noir et une couleur de police blanche */
+table.zmos_table_bestiaire th.enemy_name {
+	background-color: #ECCC9A;
+	color: auto;
+}
+
+table.zmos_table_map {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.zmos_table_map.td {
+	text-align:center;
+	vertical-align:middle;
 }
