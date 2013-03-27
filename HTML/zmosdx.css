@@ -9,6 +9,10 @@ span.lieu {
 	font-style: italic;
 }
 
+img.tmb_mob {
+    max-width: 80px;
+}
+
 /* Partie importante */
 
 /* Partie commune à chaque tableau : remet les bords, les fusionne et fait un margin en bas pour éviter que le texte se colle au tableau */
