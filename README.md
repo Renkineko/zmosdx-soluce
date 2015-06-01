@@ -1,3 +1,14 @@
+zmosdx-walkthrough
+==================
+This git repo is dedicated to the writing and the maintenance of the walkthrough of the game The Legend of Zelda : Mystery of Solarus DX ( http://www.zelda-solarus.com )
+
+About the organization of the project, it's very simple :
+- HTML/Solution : contains the HTML code used in Wordpress, it's the save of the articles done after the publication on the website (it's only for backup). It can not be used to render a real HTML version of the walkthrough, it will not work.
+- HTML/Bestiaire : Same as previously, it's only backup for the bestiary of the website. Actually, the folder should be called "HTML Wordpress" and not just "HTML"...
+- PNG : All maps and sprites of the enemies for the bestiary. It's organized by subfolder for each chapter. There is also the worldmap, and the book used for the Billy's Interview.
+- XCF : All the gimp resources used for the PNG folder. Less organized than PNG, it's a subfolder by dungeon and all the remaining maps are in other. There is at least Worldmap, Bestiary and Billy for the interview.
+- Root : The text version of the walkthrough only. It's based on a gamefaqs style, with ascii tables for legends, etc. They may also have important information if you work on the maps or the walkthrough, like the map convention notation (size of the dots, style, etc).
+
 zmosdx-soluce
 =============
 Ce github est dédié à la rédaction et la maintenance de la soluce écrite du jeu amateur The Legend of Zelda : Mystery of Solarus DX ( http://www.zelda-solarus.com/ )
