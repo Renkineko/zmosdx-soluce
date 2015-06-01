@@ -8,6 +8,11 @@ About the organization of the project, it's very simple :
 - PNG : All maps and sprites of the enemies for the bestiary. It's organized by subfolder for each chapter. There is also the worldmap, and the book used for the Billy's Interview.
 - XCF : All the gimp resources used for the PNG folder. Less organized than PNG, it's a subfolder by dungeon and all the remaining maps are in other. There is at least Worldmap, Bestiary and Billy for the interview.
 - Root : The text version of the walkthrough only. It's based on a gamefaqs style, with ascii tables for legends, etc. They may also have important information if you work on the maps or the walkthrough, like the map convention notation (size of the dots, style, etc).
+ 
+About localization of the guide
+-------------------------------
+If you want to add a new language to the guide, please use the same name as the french file, but with the code of your country before the extension. For example, LVL2.txt will become for german LVL2.de.txt or for english LVL2.en.txt. Respect the commit messages convention (title of 50 chars max, body of the message of 72 chars max by line, second line is always empty, etc).
+
 
 zmosdx-soluce
 =============
